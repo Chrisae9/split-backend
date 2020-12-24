@@ -1,6 +1,6 @@
 # Split Backend
 
-Backend for the application [Split](chis.dev/split).
+Backend for the application [Split](https://chis.dev/split).
 
 ## Setup
 
