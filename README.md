@@ -1,18 +1,18 @@
 # Split Backend
 
-Backend for the application `chis.dev/split`
+Backend for the application [Split](chis.dev/split).
 
 ## Setup
 
-Download an run [mongodb](https://www.mongodb.com/)
+Download an run [mongodb](https://www.mongodb.com/).
 
-Create a db named split
+Create a database.
 
 `mongo`
 
 `use split`
 
-Install dependencies
+Install dependencies.
 
 `npm install`
 
