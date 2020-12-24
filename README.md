@@ -1,1 +1,21 @@
-`sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ./selfsigned.key -out selfsigned.crt`
+# Split Backend
+
+Backend for the application [Split](https://chis.dev/split).
+
+## Setup
+
+Download an run [mongodb](https://www.mongodb.com/).
+
+Create a database.
+
+`mongo`
+
+`use split`
+
+Install dependencies.
+
+`npm install`
+
+## Run
+
+`npm run devStart`
