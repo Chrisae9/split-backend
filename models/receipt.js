@@ -10,11 +10,11 @@ var ReceiptSchema = new Schema({
       _id: String,
       name: String,
       cost: Number,
-      contributors: [{ uuid: String, name: String }],
-      selected: Boolean,
+      contributors: [{ name: String }],
+      // selected: Boolean,
     },
   ],
-  contributors: [{ uuid: String, name: String }],
+  contributors: [{ name: String }],
 });
 
 // Compile model from schema
