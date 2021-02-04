@@ -16,6 +16,16 @@ Install dependencies.
 
 `npm install`
 
+Create a certs directory and add Cloudfare SSL certs.
+
+`mkdir certs`
+
+```
+certs
+├── cert.pem
+└── key.pem
+```
+
 ## Run
 
 `npm run devStart`
