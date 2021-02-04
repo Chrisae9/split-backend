@@ -19,19 +19,19 @@ const receiptsRouter = require("./routes/receipts");
 app.use("/receipts", receiptsRouter);
 
 app.get("/", (req, res) => {
-  res.send("Using https!");
+  res.send("Welcome to my api :)");
 });
 
-var key = fs.readFileSync(__dirname + "/certs/key.pem");
-var cert = fs.readFileSync(__dirname + "/certs/cert.pem");
-var options = {
-  key: key,
-  cert: cert,
-};
-console.log(key, cert);
+// var key = fs.readFileSync(__dirname + "/certs/key.pem");
+// var cert = fs.readFileSync(__dirname + "/certs/cert.pem");
+// var options = {
+//   key: key,
+//   cert: cert,
+// };
+// console.log(key, cert);
 
-var server = https.createServer(options, app);
+// var server = https.createServer(options, app);
 
-server.listen(process.env.PORT, () =>
+app.listen(process.env.PORT, () =>
   console.log(`server has started at port ${process.env.PORT}`)
 );
